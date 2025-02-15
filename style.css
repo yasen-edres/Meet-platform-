@@ -317,3 +317,19 @@ body{
         display: none;
     }
 }
+@media screen and (max-width: 375px){
+    .main .controls{
+        gap: 0px;
+    }
+    .main .controls i{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 481px){
+    .main .controls{
+        gap: 13px;
+    }
+    .main .controls i{
+        font-size: 19px;
+    }
+}
